@@ -21,10 +21,18 @@ extern "C" {
 
 #endif	/* MAIN_H */
 
+int* anodes[8];
+int* cathodes[8];
+
+void writeAnode(unsigned int pin, unsigned int status);
+void writeCathode(unsigned int pin, unsigned int status);
 void main(void);
 void setup(void);
 void update(void);
-void collisioncheck(void);
-void spawnfeed(void);
-void gameclear(void);
+void collisionCheck(void);
+void move(int x, int y);
+void spawnFeed(void);
+void gameClear(void);
 void eat(void);
+void render(void);
+void timerInterruptHandler(void);
