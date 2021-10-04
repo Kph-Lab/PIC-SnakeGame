@@ -171,39 +171,39 @@
 #define ANODE_5_SetDigitalInput()    do { TRISAbits.TRISA7 = 1; } while(0)
 #define ANODE_5_SetDigitalOutput()   do { TRISAbits.TRISA7 = 0; } while(0)
 
-// get/set CATHODE_7 aliases
-#define CATHODE_7_TRIS                 TRISBbits.TRISB0
-#define CATHODE_7_LAT                  LATBbits.LATB0
-#define CATHODE_7_PORT                 PORTBbits.RB0
-#define CATHODE_7_WPU                  WPUBbits.WPUB0
-#define CATHODE_7_ANS                  ANSELBbits.ANSB0
-#define CATHODE_7_SetHigh()            do { LATBbits.LATB0 = 1; } while(0)
-#define CATHODE_7_SetLow()             do { LATBbits.LATB0 = 0; } while(0)
-#define CATHODE_7_Toggle()             do { LATBbits.LATB0 = ~LATBbits.LATB0; } while(0)
-#define CATHODE_7_GetValue()           PORTBbits.RB0
-#define CATHODE_7_SetDigitalInput()    do { TRISBbits.TRISB0 = 1; } while(0)
-#define CATHODE_7_SetDigitalOutput()   do { TRISBbits.TRISB0 = 0; } while(0)
-#define CATHODE_7_SetPullup()          do { WPUBbits.WPUB0 = 1; } while(0)
-#define CATHODE_7_ResetPullup()        do { WPUBbits.WPUB0 = 0; } while(0)
-#define CATHODE_7_SetAnalogMode()      do { ANSELBbits.ANSB0 = 1; } while(0)
-#define CATHODE_7_SetDigitalMode()     do { ANSELBbits.ANSB0 = 0; } while(0)
+// get/set SWITCH_2 aliases
+#define SWITCH_2_TRIS                 TRISBbits.TRISB0
+#define SWITCH_2_LAT                  LATBbits.LATB0
+#define SWITCH_2_PORT                 PORTBbits.RB0
+#define SWITCH_2_WPU                  WPUBbits.WPUB0
+#define SWITCH_2_ANS                  ANSELBbits.ANSB0
+#define SWITCH_2_SetHigh()            do { LATBbits.LATB0 = 1; } while(0)
+#define SWITCH_2_SetLow()             do { LATBbits.LATB0 = 0; } while(0)
+#define SWITCH_2_Toggle()             do { LATBbits.LATB0 = ~LATBbits.LATB0; } while(0)
+#define SWITCH_2_GetValue()           PORTBbits.RB0
+#define SWITCH_2_SetDigitalInput()    do { TRISBbits.TRISB0 = 1; } while(0)
+#define SWITCH_2_SetDigitalOutput()   do { TRISBbits.TRISB0 = 0; } while(0)
+#define SWITCH_2_SetPullup()          do { WPUBbits.WPUB0 = 1; } while(0)
+#define SWITCH_2_ResetPullup()        do { WPUBbits.WPUB0 = 0; } while(0)
+#define SWITCH_2_SetAnalogMode()      do { ANSELBbits.ANSB0 = 1; } while(0)
+#define SWITCH_2_SetDigitalMode()     do { ANSELBbits.ANSB0 = 0; } while(0)
 
-// get/set CATHODE_6 aliases
-#define CATHODE_6_TRIS                 TRISBbits.TRISB1
-#define CATHODE_6_LAT                  LATBbits.LATB1
-#define CATHODE_6_PORT                 PORTBbits.RB1
-#define CATHODE_6_WPU                  WPUBbits.WPUB1
-#define CATHODE_6_ANS                  ANSELBbits.ANSB1
-#define CATHODE_6_SetHigh()            do { LATBbits.LATB1 = 1; } while(0)
-#define CATHODE_6_SetLow()             do { LATBbits.LATB1 = 0; } while(0)
-#define CATHODE_6_Toggle()             do { LATBbits.LATB1 = ~LATBbits.LATB1; } while(0)
-#define CATHODE_6_GetValue()           PORTBbits.RB1
-#define CATHODE_6_SetDigitalInput()    do { TRISBbits.TRISB1 = 1; } while(0)
-#define CATHODE_6_SetDigitalOutput()   do { TRISBbits.TRISB1 = 0; } while(0)
-#define CATHODE_6_SetPullup()          do { WPUBbits.WPUB1 = 1; } while(0)
-#define CATHODE_6_ResetPullup()        do { WPUBbits.WPUB1 = 0; } while(0)
-#define CATHODE_6_SetAnalogMode()      do { ANSELBbits.ANSB1 = 1; } while(0)
-#define CATHODE_6_SetDigitalMode()     do { ANSELBbits.ANSB1 = 0; } while(0)
+// get/set SWITCH_1 aliases
+#define SWITCH_1_TRIS                 TRISBbits.TRISB1
+#define SWITCH_1_LAT                  LATBbits.LATB1
+#define SWITCH_1_PORT                 PORTBbits.RB1
+#define SWITCH_1_WPU                  WPUBbits.WPUB1
+#define SWITCH_1_ANS                  ANSELBbits.ANSB1
+#define SWITCH_1_SetHigh()            do { LATBbits.LATB1 = 1; } while(0)
+#define SWITCH_1_SetLow()             do { LATBbits.LATB1 = 0; } while(0)
+#define SWITCH_1_Toggle()             do { LATBbits.LATB1 = ~LATBbits.LATB1; } while(0)
+#define SWITCH_1_GetValue()           PORTBbits.RB1
+#define SWITCH_1_SetDigitalInput()    do { TRISBbits.TRISB1 = 1; } while(0)
+#define SWITCH_1_SetDigitalOutput()   do { TRISBbits.TRISB1 = 0; } while(0)
+#define SWITCH_1_SetPullup()          do { WPUBbits.WPUB1 = 1; } while(0)
+#define SWITCH_1_ResetPullup()        do { WPUBbits.WPUB1 = 0; } while(0)
+#define SWITCH_1_SetAnalogMode()      do { ANSELBbits.ANSB1 = 1; } while(0)
+#define SWITCH_1_SetDigitalMode()     do { ANSELBbits.ANSB1 = 0; } while(0)
 
 // get/set CATHODE_5 aliases
 #define CATHODE_5_TRIS                 TRISBbits.TRISB2
@@ -312,6 +312,28 @@
 #define ANODE_7_SetDigitalInput()    do { TRISCbits.TRISC0 = 1; } while(0)
 #define ANODE_7_SetDigitalOutput()   do { TRISCbits.TRISC0 = 0; } while(0)
 
+// get/set CATHODE_6 aliases
+#define CATHODE_6_TRIS                 TRISCbits.TRISC6
+#define CATHODE_6_LAT                  LATCbits.LATC6
+#define CATHODE_6_PORT                 PORTCbits.RC6
+#define CATHODE_6_SetHigh()            do { LATCbits.LATC6 = 1; } while(0)
+#define CATHODE_6_SetLow()             do { LATCbits.LATC6 = 0; } while(0)
+#define CATHODE_6_Toggle()             do { LATCbits.LATC6 = ~LATCbits.LATC6; } while(0)
+#define CATHODE_6_GetValue()           PORTCbits.RC6
+#define CATHODE_6_SetDigitalInput()    do { TRISCbits.TRISC6 = 1; } while(0)
+#define CATHODE_6_SetDigitalOutput()   do { TRISCbits.TRISC6 = 0; } while(0)
+
+// get/set CATHODE_7 aliases
+#define CATHODE_7_TRIS                 TRISCbits.TRISC7
+#define CATHODE_7_LAT                  LATCbits.LATC7
+#define CATHODE_7_PORT                 PORTCbits.RC7
+#define CATHODE_7_SetHigh()            do { LATCbits.LATC7 = 1; } while(0)
+#define CATHODE_7_SetLow()             do { LATCbits.LATC7 = 0; } while(0)
+#define CATHODE_7_Toggle()             do { LATCbits.LATC7 = ~LATCbits.LATC7; } while(0)
+#define CATHODE_7_GetValue()           PORTCbits.RC7
+#define CATHODE_7_SetDigitalInput()    do { TRISCbits.TRISC7 = 1; } while(0)
+#define CATHODE_7_SetDigitalOutput()   do { TRISCbits.TRISC7 = 0; } while(0)
+
 /**
    @Param
     none
@@ -335,6 +357,174 @@ void PIN_MANAGER_Initialize (void);
     PIN_MANAGER_IOC();
  */
 void PIN_MANAGER_IOC(void);
+
+
+/**
+ * @Param
+    none
+ * @Returns
+    none
+ * @Description
+    Interrupt on Change Handler for the IOCBF0 pin functionality
+ * @Example
+    IOCBF0_ISR();
+ */
+void IOCBF0_ISR(void);
+
+/**
+  @Summary
+    Interrupt Handler Setter for IOCBF0 pin interrupt-on-change functionality
+
+  @Description
+    Allows selecting an interrupt handler for IOCBF0 at application runtime
+    
+  @Preconditions
+    Pin Manager intializer called
+
+  @Returns
+    None.
+
+  @Param
+    InterruptHandler function pointer.
+
+  @Example
+    PIN_MANAGER_Initialize();
+    IOCBF0_SetInterruptHandler(MyInterruptHandler);
+
+*/
+void IOCBF0_SetInterruptHandler(void (* InterruptHandler)(void));
+
+/**
+  @Summary
+    Dynamic Interrupt Handler for IOCBF0 pin
+
+  @Description
+    This is a dynamic interrupt handler to be used together with the IOCBF0_SetInterruptHandler() method.
+    This handler is called every time the IOCBF0 ISR is executed and allows any function to be registered at runtime.
+    
+  @Preconditions
+    Pin Manager intializer called
+
+  @Returns
+    None.
+
+  @Param
+    None.
+
+  @Example
+    PIN_MANAGER_Initialize();
+    IOCBF0_SetInterruptHandler(IOCBF0_InterruptHandler);
+
+*/
+extern void (*IOCBF0_InterruptHandler)(void);
+
+/**
+  @Summary
+    Default Interrupt Handler for IOCBF0 pin
+
+  @Description
+    This is a predefined interrupt handler to be used together with the IOCBF0_SetInterruptHandler() method.
+    This handler is called every time the IOCBF0 ISR is executed. 
+    
+  @Preconditions
+    Pin Manager intializer called
+
+  @Returns
+    None.
+
+  @Param
+    None.
+
+  @Example
+    PIN_MANAGER_Initialize();
+    IOCBF0_SetInterruptHandler(IOCBF0_DefaultInterruptHandler);
+
+*/
+void IOCBF0_DefaultInterruptHandler(void);
+
+
+/**
+ * @Param
+    none
+ * @Returns
+    none
+ * @Description
+    Interrupt on Change Handler for the IOCBF1 pin functionality
+ * @Example
+    IOCBF1_ISR();
+ */
+void IOCBF1_ISR(void);
+
+/**
+  @Summary
+    Interrupt Handler Setter for IOCBF1 pin interrupt-on-change functionality
+
+  @Description
+    Allows selecting an interrupt handler for IOCBF1 at application runtime
+    
+  @Preconditions
+    Pin Manager intializer called
+
+  @Returns
+    None.
+
+  @Param
+    InterruptHandler function pointer.
+
+  @Example
+    PIN_MANAGER_Initialize();
+    IOCBF1_SetInterruptHandler(MyInterruptHandler);
+
+*/
+void IOCBF1_SetInterruptHandler(void (* InterruptHandler)(void));
+
+/**
+  @Summary
+    Dynamic Interrupt Handler for IOCBF1 pin
+
+  @Description
+    This is a dynamic interrupt handler to be used together with the IOCBF1_SetInterruptHandler() method.
+    This handler is called every time the IOCBF1 ISR is executed and allows any function to be registered at runtime.
+    
+  @Preconditions
+    Pin Manager intializer called
+
+  @Returns
+    None.
+
+  @Param
+    None.
+
+  @Example
+    PIN_MANAGER_Initialize();
+    IOCBF1_SetInterruptHandler(IOCBF1_InterruptHandler);
+
+*/
+extern void (*IOCBF1_InterruptHandler)(void);
+
+/**
+  @Summary
+    Default Interrupt Handler for IOCBF1 pin
+
+  @Description
+    This is a predefined interrupt handler to be used together with the IOCBF1_SetInterruptHandler() method.
+    This handler is called every time the IOCBF1 ISR is executed. 
+    
+  @Preconditions
+    Pin Manager intializer called
+
+  @Returns
+    None.
+
+  @Param
+    None.
+
+  @Example
+    PIN_MANAGER_Initialize();
+    IOCBF1_SetInterruptHandler(IOCBF1_DefaultInterruptHandler);
+
+*/
+void IOCBF1_DefaultInterruptHandler(void);
 
 
 

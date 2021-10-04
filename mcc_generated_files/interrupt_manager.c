@@ -56,6 +56,10 @@ void __interrupt() INTERRUPT_InterruptManager (void)
     {
         TMR0_ISR();
     }
+    else if(INTCONbits.IOCIE == 1 && INTCONbits.IOCIF == 1)
+    {
+        PIN_MANAGER_IOC();
+    }
     else
     {
         //Unhandled Interrupt
